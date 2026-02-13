@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import { AppState, CharacterId, Message, User } from "./types';
+import { AppState, CharacterId, Message, User } from './types';
 import { CHARACTERS } from "./constants';
-import { getCharacterResponse, translateMessage } from "./services/geminiService';
-import CharacterList from "./components/CharacterList';
-import ChatWindow from "./components/ChatWindow';
-import CharacterProfile from "./components/CharacterProfile';
-import Auth from "./components/Auth';
-import Dashboard from "./components/Dashboard';
+import { getCharacterResponse, translateMessage } from './geminiService';
+import CharacterList from './CharacterList';
+import ChatWindow from './ChatWindow';
+import CharacterProfile from './CharacterProfile';
+import Auth from './Auth';
+import Dashboard from './Dashboard';
 
 const STORAGE_KEY = 'my_friend_app_state_v2';
 
