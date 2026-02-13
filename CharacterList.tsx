@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { CHARACTERS } from "./constants';
-import { CharacterId } from "./types';
+import { CHARACTERS } from './constants';
+import { CharacterId } from './types';
 
 interface CharacterListProps {
   activeId: CharacterId;
