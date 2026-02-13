@@ -1,5 +1,5 @@
 
-import { CharacterProfile, CharacterId } from "./types';
+import { CharacterProfile, CharacterId } from './types';
 
 export const CHARACTERS: Record<CharacterId, CharacterProfile> = {
   omar: {
