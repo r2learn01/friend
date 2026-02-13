@@ -1,7 +1,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { CharacterId, Message } from "./types';
-import { CHARACTERS } from "./constants';
+import { CharacterId, Message } from './types';
+import { CHARACTERS } from './constants';
 
 interface ChatWindowProps {
   characterId: CharacterId;
