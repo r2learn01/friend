@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { AppState, CharacterId, Message, User } from './types';
-import { CHARACTERS } from "./constants';
+import { CHARACTERS } from './constants';
 import { getCharacterResponse, translateMessage } from './geminiService';
 import CharacterList from './CharacterList';
 import ChatWindow from './ChatWindow';
